@@ -1,0 +1,33 @@
+body{
+    background: rgba(0, 0, 0, 0.497);
+}
+h1{
+    text-shadow: 2px 2px 2px black;
+    font-family: cursive;
+}
+.head-cont{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.rollbtn{
+    margin-left: 140px;
+    background: unset;
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.dice{
+    font-size: 60px;
+    animation: roll 2s ease-out;
+    display: flex;
+    justify-content: center;
+}
+@keyframes roll{
+    0%{}
+    100%{transform: rotate(360deg);}
+}
+.congrat{
+    display: none;
+}
